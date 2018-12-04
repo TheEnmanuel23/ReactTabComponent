@@ -1,2 +1,0 @@
-# ReactTabComponent
-Created with CodeSandbox

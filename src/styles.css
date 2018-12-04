@@ -1,0 +1,74 @@
+.App {
+  font-family: sans-serif;
+}
+
+.custom-tabs {
+  height: 300px;
+}
+
+.tab-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #c7c4c4;
+  border-right: 1px solid #c7c4c4;
+  border-bottom: 1px solid #c7c4c4;
+}
+
+.tab-headers .headers-buttons {
+  list-style: none;
+  margin: 0;
+  height: 40px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  border-top: 2px solid #bfbfbf;
+  overflow: auto;
+}
+
+.tab-headers ul li {
+  width: 100%;
+}
+
+.tab-headers .tab-header-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  background: #bfbfbf;
+  color: black;
+}
+
+.tab-headers .activeTab {
+  background: white;
+}
+
+.panel {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+/* overwrite styles */
+.notebook-tab {
+  border-left: 1px solid #3274aa;
+  border-right: 1px solid #3274aa;
+  border-bottom: 1px solid #3274aa;
+}
+
+.tab-headers .note-tab {
+  background: #3274aa;
+  color: white;
+}
+
+.tab-headers .note-selected-tab {
+  background: white;
+  color: #3274aa;
+}
+
+.tab-headers .notes-headers-tab {
+  border-top-color: #3274aa;
+  height: 30px;
+}
